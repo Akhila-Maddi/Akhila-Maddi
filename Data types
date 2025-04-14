@@ -1,0 +1,12 @@
+second_i = int(input())
+second_d = float(input())
+second_s = input()
+
+# Print the sum of both integer variables
+print(i + second_i)
+
+# Print the sum of the double variables to one decimal place
+print(f"{d + second_d:.1f}")
+
+# Concatenate and print the String variables
+print(s + second_s)
