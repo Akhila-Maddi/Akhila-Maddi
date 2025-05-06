@@ -1,0 +1,9 @@
+numbers=[10,20,30,11]
+def first_last(numbers):
+    first=numbers [0]#10
+    last=numbers [-1]#11
+    if(first==last):
+        return True
+    else:
+        return False
+print(first_last(numbers))
