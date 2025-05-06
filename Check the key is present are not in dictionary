@@ -1,0 +1,5 @@
+my_dict={1:'ab',2:'cd',3:'ef'}
+if 3 in my_dict:
+    print("present")
+else:
+    print("not present")
