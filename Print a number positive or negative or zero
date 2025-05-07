@@ -1,0 +1,8 @@
+#print if a number positive negitive or zero
+num=float(input("Enter a number"))
+if num>=0:
+    print("positive")
+elif num<=0:
+    print("Negitve")
+else:
+    print("Zero")
