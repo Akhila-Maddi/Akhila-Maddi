@@ -1,0 +1,13 @@
+#l=[1,2,3]
+#print(max(l))
+'or'
+num1=float(input("Enter a number"))
+num2=float(input("Enter a number"))
+num3=float(input("Enter a number"))
+if num1>=num2 and num1>=num3:
+   num1=largest
+elif num2>=num1 and num2>=num3:
+    num2=largest
+else:
+    largest=num3
+print("the largest numberis:",largest)
